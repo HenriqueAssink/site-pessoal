@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Meu Currículo Online - Início</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">@Henriqueassink_</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Início</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="curriculo.html">Currículo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfólio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+      <section id="introducao" class="mb-5 text-center">
+        <img src="img/eu4.jpg" class="profile-img mb-3" />
+        <h1 class="display-4">Apresentação</h1>
+        <p class="lead">
+          Meu nome é Henrique Assink Alcantara. Atualmente trabalho no
+          AskConnect, na área de redes, e também toco um pequeno negócio
+          vendendo cookies no Instagram (@AssinkSeFaz), onde faço o que muitos
+          dizem ser o melhor cookie de Lages. Terminei Téc.Informática para Internet
+          e to estudando Ciência da Computação na minha segunda casa
+          (IFSC-Lages).
+        </p>
+        <hr class="my-4" />
+      </section>
+
+      <section id="habilidades" class="mb-5">
+        <h2 class="text-center mb-4">Tecnologias e Habilidades</h2>
+        <div class="row text-center">
+          <div class="col-6 col-md-4 mb-4">
+            <p class="icon-tech">🛠️</p>
+            <h5>HTML, CSS e JavaScript</h5>
+            <p>Base sólida em desenvolvimento web front-end.</p>
+          </div>
+          <div class="col-6 col-md-4 mb-4">
+            <p class="icon-tech">📱</p>
+            <h5>React Native</h5>
+            <p>Criação de aplicativos móveis com foco em usabilidade.</p>
+          </div>
+          <div class="col-6 col-md-4 mb-4">
+            <p class="icon-tech">⚙️</p>
+            <h5>Laravel</h5>
+            <p>Desenvolvimento back-end com PHP moderno e eficiente.</p>
+          </div>
+          <div class="col-6 col-md-4 mb-4">
+            <p class="icon-tech">🌐</p>
+            <h5>Git</h5>
+            <p>Controle de versão para projetos colaborativos.</p>
+          </div>
+          <div class="col-6 col-md-4 mb-4">
+            <p class="icon-tech">🧠</p>
+            <h5>Resolução de Problemas</h5>
+            <p>Capacidade de analisar e encontrar soluções práticas.</p>
+          </div>
+          <div class="col-6 col-md-4 mb-4">
+            <p class="icon-tech">🤝</p>
+            <h5>Trabalho em Equipe</h5>
+            <p>Facilidade de comunicação e cooperação em grupo.</p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="contato"
+        class="mb-5 text-center bg-light p-4 rounded shadow-sm"
+      >
+        <h2 class="mb-4">Entre em Contato</h2>
+
+        <div class="mb-4">
+          <a
+            href="https://www.linkedin.com/in/henrique-assink-alcantara-7288a02b3/"
+            target="_blank"
+            class="social-icon"
+            ><img
+              src="https://cdn.jsdelivr.net/npm/bootstrap-icons/icons/linkedin.svg"
+              alt="LinkedIn"
+              width="32"
+              height="32"
+          /></a>
+          <a
+            href="https://github.com/HenriqueAssink"
+            target="_blank"
+            class="social-icon"
+            ><img
+              src="https://cdn.jsdelivr.net/npm/bootstrap-icons/icons/github.svg"
+              alt="GitHub"
+              width="32"
+              height="32"
+          /></a>
+          <a
+            href="https://www.instagram.com/henriqueassink_/"
+            target="_blank"
+            class="social-icon"
+            ><img
+              src="https://cdn.jsdelivr.net/npm/bootstrap-icons/icons/instagram.svg"
+              alt="Instagram"
+              width="32"
+              height="32"
+          /></a>
+        </div>
+
+        <h3 class="mt-5 mb-3">Envie uma Mensagem</h3>
+        <form action="#" method="get">
+          <div class="mb-3">
+            <label for="nome" class="form-label float-start">Nome</label>
+            <input
+              type="text"
+              class="form-control"
+              id="nome"
+              placeholder="Seu nome"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label float-start">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="seu@email.com"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="mensagem" class="form-label float-start"
+              >Mensagem</label
+            >
+            <textarea
+              class="form-control"
+              id="mensagem"
+              rows="5"
+              placeholder="Sua mensagem..."
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-secondary">Enviar Mensagem</button>
+          <small class="form-text text-muted mt-2 d-block"
+          >
+        </form>
+      </section>
+    </div>
+
+    <footer class="footer bg-dark text-white text-center py-3 mt-5">
+      <div class="container">
+        <span>Henrique Assink Alcantara - 2025</span>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
